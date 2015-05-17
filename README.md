@@ -20,6 +20,6 @@ The purpose of this project is to merge and tidy the data set provided. The data
 5. Load the script using source('run_analysis.R') in RStudio. Please install RStudio if not installed.
 6. Run the function mergeTidyData() from command line.
 7. The output file tidy.txt will be generated in the output directory. 
-8. The output diretory tidy.txt will contain 10299 observations of 564 variables
+8. The output diretory tidy.txt will contain 30 observations of all the means and standard deviations
 
 
