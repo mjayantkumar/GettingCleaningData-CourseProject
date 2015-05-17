@@ -10,7 +10,7 @@
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for       each activity and each subject.
 
 #####Purpose of the Project
-The purpose of this project is to merge and tidy the data set provided. The dataset is divided into test and train and the test and train dataset needs to be merged to form a clean and tidy dataset in a single file. 
+The purpose of this project is to merge and tidy the data set provided. The dataset is divided into test and train and the test and train dataset needs to be merged to form a clean and tidy dataset in a single file. Each of the test and train datasets consists of 561 columns and these need to be merged with subjects and one another. The top most row should contain the names of the features.txt file. 
 
 ##### Steps that need to be performed before runnig the method on run_analysis.R
 1. Create or download the run_analysis.R in a directory on your machine. 
