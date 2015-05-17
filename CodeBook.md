@@ -25,10 +25,22 @@ The input data is classified into two folder test and train. In each of the fold
 
 #### Test Direcotry and Files 
 
-The test directory consists of 30% of the data generated for subjects based on the feature and activity type. 
+The test directory consists of 30% of the data generated for volunteers based on the feature and activity type. 
 
-1. subject_test.txt - Vector containing data for about 2947 observations for 561 features for about 9 voluteers of the total of 30 volunteers. 
-2.  
+1. subject_test.txt - The file containing data for about 2947 observations for 561 features for about 9 voluteers of the total of 30 volunteers. 
+2. y_test.txt - The file containing the data denoting the ID of the activity for each of the observations in X_test.txt.
+3. X_test.txt - The file with data for about 9 of the 30 volunteers in a row and column format with 2947 rows and 561 columns. The column names can be lookedup in features.txt.
+4. Inertial Signal Direcotry : the directory for various acceleratometer and gyroscopic mesurements. 
+
+#### Train Direcotry and Files 
+
+The train directory consists of 70% of the data generated for the volunteers. The train directory consists of the following files.
+
+1. subject_train.txt - The file containing data for about 7352 observations for 561 features for about 21 voluteers of the total of 30 volunteers. 
+2. y_train.txt - The file containing the data denoting the ID of the activity for each of the observations in X_test.txt.
+3. X_train.txt - The file with data for about 21 of the 30 volunteers in a row and column format with 7352 rows and 561 columns. The column names can be lookedup in features.txt.
+4. Inertial Signal Direcotry : the directory for various acceleratometer and gyroscopic mesurements. 
+
 
 
 
