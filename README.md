@@ -9,6 +9,9 @@
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for       each activity and each subject.
 
+#####Purpose of the Project
+The purpose of this project is to merge and tidy the data set provided. The dataset is divided into test and train and the test and train dataset needs to be merged to form a clean and tidy dataset in a single file. 
+
 ##### Steps that need to be performed before runnig the method on run_analysis.R
 1. Create or download the run_analysis.R in a directory on your machine. 
 2. Download the dataset files from this [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  "Title") in to the run_analysis.R directory
@@ -17,5 +20,6 @@
 5. Load the script using source('run_analysis.R') in RStudio. Please install RStudio if not installed.
 6. Run the function mergeTidyData() from command line.
 7. The output file tidy.txt will be generated in the output directory. 
+8. The output diretory tidy.txt will contain 10299 observations of 564 variables
 
 
