@@ -49,8 +49,9 @@ The sequence of steps are  merging the data from test and train and applying col
 The output file so generated using the above R script consists of 40 observations and 69 variables. The 40 observations pertains to various Volunteers and 69 variables pertain to Id, activities and various means and standard deviations. 
 
 The first 3 columns of the tidy data set consists of the following :
+      
       * SubjectId - Values 1 to 30 
       * ActivityId - Activity value
       * Activity - Activity Name corresponding to each of the activity Id. 
-
+Columns from 3 to 69 pertain to means and standard deviation in X,Y and Z for each of the volunteers numbered from 1 to 30. 
 
